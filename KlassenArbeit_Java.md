@@ -40,8 +40,6 @@ Die Potenzzahl wird nun durch 10 geteilt und in sich selbst gespeichert.
 # Achtung Spoiler:
 ## Du lernst am meisten wenn du es zuerst selbst probierst -> Google ist dein Freund
 
-<p style="page-break-after: always;">&nbsp;</p>
-<p style="page-break-before: always;">&nbsp;</p>
 
 ## Lösung
 
@@ -50,9 +48,17 @@ Der Code müsste **theoretisch** laufen. Ich habe jetzt leider keine Zeit es aus
 
 
 ```java
+
+import Prog1Tools.IOTools;
+
 public class chineseConversion {
 
-	import Prog1Tools.IOTools;
+
+	/*
+		Falls irgendetwas mit dem Code nicht stimmen sollte tut es mir leid, ist aber umso besser für dich, dann darst du dich nämlich selbst auf Fehlersuche begeben.
+		Ein Kleiner Fehler ist enthalten, (ein logikfehler, vllt findest du ihn ja.
+		(tipp: was passiert wenn die Zahlen des Benutzers zu groß werden)
+	*/ 
 
 	public static void main(String[] args) {
 
